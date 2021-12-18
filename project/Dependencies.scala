@@ -13,7 +13,7 @@ object Dependencies {
     "org.scalatest" %% "scalatest" % "3.3.0-SNAP3" % "test",
     "com.typesafe" % "config" % "1.4.1",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.4",
-    "org.apache.logging.log4j" % "log4j-slf4j-impl" % "2.16.0",
+    "org.apache.logging.log4j" % "log4j-slf4j-impl" % "2.17.0",
     "org.slf4j" % "jcl-over-slf4j" % "1.7.32",
     "com.typesafe.akka" %% "akka-actor" % "2.6.17",
     "com.typesafe.akka" %% "akka-stream" % "2.6.17",
