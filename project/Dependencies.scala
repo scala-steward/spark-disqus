@@ -56,8 +56,8 @@ object Dependencies {
         ExclusionRule("javax.activation"),
         ExclusionRule("org.slf4j", "slf4j-log4j12")
       ),
-    "com.sksamuel.elastic4s" % "elastic4s-core_2.12" % "7.16.2",
-    ("com.sksamuel.elastic4s" % "elastic4s-client-esjava_2.12" % "7.16.2")
+    "com.sksamuel.elastic4s" % "elastic4s-core_2.12" % "7.16.3",
+    ("com.sksamuel.elastic4s" % "elastic4s-client-esjava_2.12" % "7.16.3")
       .excludeAll(
         ExclusionRule("commons-logging")
       ),
