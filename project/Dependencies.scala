@@ -1,7 +1,7 @@
 import sbt._
 
 object Dependencies {
-  val currentScalaVersion = "2.13.7"
+  val currentScalaVersion = "2.13.8"
 
   val scalaLanguage = "org.scala-lang" % "scala-library" % currentScalaVersion
   val scalaCompiler = "org.scala-lang" % "scala-compiler" % currentScalaVersion
