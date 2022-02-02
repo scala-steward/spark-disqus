@@ -11,7 +11,7 @@ object Dependencies {
     "org.scala-lang" % "scala-library" % currentScalaVersion,
     "org.scala-lang" % "scala-compiler" % currentScalaVersion,
     "org.scalatest" %% "scalatest" % "3.3.0-SNAP3" % "test",
-    "com.typesafe" % "config" % "1.4.1",
+    "com.typesafe" % "config" % "1.4.2",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.4",
     "org.apache.logging.log4j" % "log4j-slf4j-impl" % "2.17.1",
     "org.slf4j" % "jcl-over-slf4j" % "1.7.35",
