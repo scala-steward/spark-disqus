@@ -17,7 +17,7 @@ object Dependencies {
     "org.slf4j" % "jcl-over-slf4j" % "1.7.36",
     "com.typesafe.akka" %% "akka-actor" % "2.6.18",
     "com.typesafe.akka" %% "akka-stream" % "2.6.18",
-    "com.typesafe.akka" %% "akka-http" % "10.2.8",
+    "com.typesafe.akka" %% "akka-http" % "10.2.9",
     ("org.apache.hadoop" % "hadoop-common" % "3.3.2")
       .excludeAll(
         ExclusionRule("commons-logging"),
