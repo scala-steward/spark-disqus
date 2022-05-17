@@ -18,7 +18,7 @@ object Dependencies {
     "com.typesafe.akka" %% "akka-actor" % "2.6.19",
     "com.typesafe.akka" %% "akka-stream" % "2.6.19",
     "com.typesafe.akka" %% "akka-http" % "10.2.9",
-    ("org.apache.hadoop" % "hadoop-common" % "3.3.2")
+    ("org.apache.hadoop" % "hadoop-common" % "3.3.3")
       .excludeAll(
         ExclusionRule("commons-logging"),
         ExclusionRule("com.sun.jersey"),
@@ -29,7 +29,7 @@ object Dependencies {
         ExclusionRule("log4j", "log4j"),
         ExclusionRule("org.slf4j", "slf4j-log4j12")
       ),
-    ("org.apache.hadoop" % "hadoop-mapreduce-client-core" % "3.3.2")
+    ("org.apache.hadoop" % "hadoop-mapreduce-client-core" % "3.3.3")
       .exclude("aopalliance", "aopalliance")
       .exclude("javax.inject", "javax.inject")
       .exclude("org.apache.hadoop", "hadoop-yarn-common")
