@@ -5,7 +5,7 @@ import sbtassembly.MergeStrategy
 import sbtrelease.ReleaseStateTransformations._
 import sbtrelease.{versionFormatError, Version}
 
-scalaVersion := "2.12.15"
+scalaVersion := "2.12.16"
 
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
@@ -26,7 +26,7 @@ lazy val mergeStrategy: PartialFunction[String, MergeStrategy] = {
 lazy val commonSettings = Seq(
   organizationName := "SZTAKI",
   organization := "hu.sztaki.spark.squs",
-  scalaVersion := "2.12.15",
+  scalaVersion := "2.12.16",
   semanticdbEnabled := true,
   semanticdbVersion := scalafixSemanticdb.revision,
   addCompilerPlugin(scalafixSemanticdb),
