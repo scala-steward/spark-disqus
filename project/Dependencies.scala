@@ -61,7 +61,7 @@ object Dependencies {
       .excludeAll(
         ExclusionRule("commons-logging")
       ),
-    "com.softwaremill.retry" %% "retry" % "0.3.4"
+    "com.softwaremill.retry" %% "retry" % "0.3.5"
   )
 
 }
