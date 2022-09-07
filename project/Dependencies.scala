@@ -15,8 +15,8 @@ object Dependencies {
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
     "org.apache.logging.log4j" % "log4j-slf4j-impl" % "2.18.0",
     "org.slf4j" % "jcl-over-slf4j" % "2.0.0",
-    "com.typesafe.akka" %% "akka-actor" % "2.6.19",
-    "com.typesafe.akka" %% "akka-stream" % "2.6.19",
+    "com.typesafe.akka" %% "akka-actor" % "2.6.20",
+    "com.typesafe.akka" %% "akka-stream" % "2.6.20",
     "com.typesafe.akka" %% "akka-http" % "10.2.9",
     ("org.apache.hadoop" % "hadoop-common" % "3.3.4")
       .excludeAll(
